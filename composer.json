@@ -1,0 +1,35 @@
+{
+	"name": "targetimc/caetano",
+	"type": "wordpress-theme",
+	"description": "Custom Genesis Child Theme for Caetano Flotas",
+	"homepage": "https://github.com/targetimc/caetano",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Max Terbeck",
+			"email": "max@targetimc.com"
+		}
+	],
+	"require": {
+		"php": "^5.2 || ^7",
+		"composer/installers": "^1"
+	},
+	"require-dev": {
+		"php": "^5.6 || ^7",
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+		"phpcompatibility/phpcompatibility-wp": "^2",
+		"squizlabs/php_codesniffer": "^3.3.2",
+		"wp-coding-standards/wpcs": "^1.1"
+	},
+	"config": {
+		"sort-order": true
+	},
+	"scripts": {
+		"install-codestandards": "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run",
+		"phpcs": "phpcs"
+	},
+	"support": {
+		"issues": "https://github.com/targetimc/caetano/issues",
+		"source": "https://github.com/targetimc/caetano"
+	}
+}
