@@ -50,6 +50,12 @@ require_once get_stylesheet_directory() . '/lib/woocommerce/woocommerce-output.p
 // Adds the Genesis Connect WooCommerce notice.
 require_once get_stylesheet_directory() . '/lib/woocommerce/woocommerce-notice.php';
 
+// Adds Cars CPT.
+require_once get_stylesheet_directory() . '/lib/cars-cpt.php';
+
+// Adds ACF Functions.
+require_once get_stylesheet_directory() . '/lib/acf-functions.php';
+
 add_action( 'after_setup_theme', 'genesis_child_gutenberg_support' );
 /**
  * Adds Gutenberg opt-in features and styling.
@@ -70,7 +76,7 @@ function caetano_enqueue_scripts_styles() {
 
 	wp_enqueue_style(
 		'caetano-fonts',
-		'//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,700',
+		'//fonts.googleapis.com/css?family=Rubik:400,700',
 		array(),
 		CHILD_THEME_VERSION
 	);
@@ -99,6 +105,15 @@ function caetano_enqueue_scripts_styles() {
 		CHILD_THEME_VERSION,
 		true
 	);
+
+	// Load Owl CSS
+	wp_enqueue_style( 'owl', get_stylesheet_directory_uri() . '/css/owl.carousel.min.css' );
+	wp_enqueue_style( 'owl', get_stylesheet_directory_uri() . '/css/owl.theme.default.min.css' );
+
+	// Load Owl jQuery
+	wp_enqueue_script( 'owl', get_stylesheet_directory_uri() . '/js/owl.carousel.min.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
+	// Initialize Owl
+	wp_enqueue_script( 'owl-init', get_stylesheet_directory_uri() . '/js/owl.init.js', array(), CHILD_THEME_VERSION, true );
 
 }
 
@@ -172,7 +187,7 @@ add_image_size( 'sidebar-featured', 75, 75, true );
 add_theme_support( 'genesis-after-entry-widget-area' );
 
 // Adds support for 3-column footer widgets.
-add_theme_support( 'genesis-footer-widgets', 3 );
+add_theme_support( 'genesis-footer-widgets', 2 );
 
 // Removes header right widget area.
 unregister_sidebar( 'header-right' );

@@ -1,0 +1,271 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Caetano\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-30 12:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.1.1"
+
+#: lib/customize.php:58
+msgid "Accent Color"
+msgstr ""
+
+#: config/block-editor-settings.php:29
+msgid "Accent color"
+msgstr ""
+
+#: lib/cars-cpt.php:15
+msgid "Add New"
+msgstr ""
+
+#: lib/cars-cpt.php:14
+msgid "Add New Car"
+msgstr ""
+
+#: lib/cars-cpt.php:13
+msgid "All Cars"
+msgstr ""
+
+#: config/onboarding.php:17
+msgid "Atomic Blocks"
+msgstr ""
+
+#. Name of the template
+msgid "Blocks"
+msgstr ""
+
+#. Name of the theme
+msgid "Caetano"
+msgstr ""
+
+#: lib/cars-cpt.php:9 lib/cars-cpt.php:35
+msgid "Car"
+msgstr ""
+
+#: lib/cars-cpt.php:10
+msgid "Car Archives"
+msgstr ""
+
+#: lib/cars-cpt.php:11
+msgid "Car Attributes"
+msgstr ""
+
+#: lib/cars-cpt.php:8
+msgid "Cars"
+msgstr ""
+
+#: lib/cars-cpt.php:30
+msgid "Cars list"
+msgstr ""
+
+#: lib/cars-cpt.php:31
+msgid "Cars list navigation"
+msgstr ""
+
+#: lib/cars-cpt.php:36
+msgid "Cars to display in slider"
+msgstr ""
+
+#: lib/customize.php:36
+msgid ""
+"Change the color of post info links and button blocks, the hover color of "
+"linked titles and menu items, and more."
+msgstr ""
+
+#: lib/customize.php:57
+msgid ""
+"Change the default hover color for button links, menu buttons, and submit "
+"buttons. The button block uses the Link Color."
+msgstr ""
+
+#: config/block-editor-settings.php:24
+msgid "Custom color"
+msgstr ""
+
+#: lib/cars-cpt.php:17
+msgid "Edit Car"
+msgstr ""
+
+#: lib/cars-cpt.php:24
+msgid "Featured Image"
+msgstr ""
+
+#: lib/cars-cpt.php:32
+msgid "Filter cars list"
+msgstr ""
+
+#: config/menus.php:16
+msgid "Footer Menu"
+msgstr ""
+
+#: config/onboarding.php:27
+msgid "Genesis eNews Extended (Third Party)"
+msgstr ""
+
+#: config/menus.php:15
+msgid "Header Menu"
+msgstr ""
+
+#. Name of the template
+msgid "Home Page"
+msgstr ""
+
+#. URI of the theme
+msgid "https://github.com/targetimc/caetano"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://targetimc.com/"
+msgstr ""
+
+#: lib/cars-cpt.php:28
+msgid "Insert into Car"
+msgstr ""
+
+#: lib/woocommerce/woocommerce-notice.php:72
+msgid "install and activate Genesis Connect for WooCommerce"
+msgstr ""
+
+#. Name of the template
+msgid "Landing"
+msgstr ""
+
+#: config/block-editor-settings.php:46
+msgid "Large"
+msgstr ""
+
+#: config/block-editor-settings.php:51
+msgid "Larger"
+msgstr ""
+
+#: lib/customize.php:37
+msgid "Link Color"
+msgstr ""
+
+#: lib/customize.php:77
+msgid "Logo Width"
+msgstr ""
+
+#. Author of the theme
+msgid "Max Terbeck"
+msgstr ""
+
+#: functions.php:119
+msgid "Menu"
+msgstr ""
+
+#: lib/cars-cpt.php:16
+msgid "New Car"
+msgstr ""
+
+#: lib/woocommerce/woocommerce-setup.php:74
+msgid "Next Page"
+msgstr ""
+
+#: config/block-editor-settings.php:41
+msgid "Normal"
+msgstr ""
+
+#: lib/cars-cpt.php:22
+msgid "Not found"
+msgstr ""
+
+#: lib/cars-cpt.php:23
+msgid "Not found in Trash"
+msgstr ""
+
+#: lib/cars-cpt.php:12
+msgid "Parent Car:"
+msgstr ""
+
+#. 1: plugin install prompt presented as link, 2: child theme name
+#: lib/woocommerce/woocommerce-notice.php:76
+#, php-format
+msgid "Please %1$s to <strong>enable WooCommerce support for %2$s</strong>."
+msgstr ""
+
+#. %s: child theme name
+#: lib/woocommerce/woocommerce-notice.php:55
+#, php-format
+msgid ""
+"Please install and activate <a href=\"https://wordpress.org/plugins/genesis-"
+"connect-woocommerce/\" target=\"_blank\">Genesis Connect for WooCommerce</a> "
+"to <strong>enable WooCommerce support for %s</strong>."
+msgstr ""
+
+#: lib/cars-cpt.php:6
+msgctxt "Post Type General Name"
+msgid "Cars"
+msgstr ""
+
+#: lib/cars-cpt.php:7
+msgctxt "Post Type Singular Name"
+msgid "Car"
+msgstr ""
+
+#: lib/woocommerce/woocommerce-setup.php:73
+msgid "Previous Page"
+msgstr ""
+
+#: lib/cars-cpt.php:26
+msgid "Remove featured image"
+msgstr ""
+
+#: lib/cars-cpt.php:21
+msgid "Search Car"
+msgstr ""
+
+#: lib/cars-cpt.php:25
+msgid "Set featured image"
+msgstr ""
+
+#: config/onboarding.php:22
+msgid "Simple Social Icons"
+msgstr ""
+
+#: config/block-editor-settings.php:36
+msgid "Small"
+msgstr ""
+
+#: functions.php:121
+msgid "Submenu"
+msgstr ""
+
+#: lib/customize.php:78
+msgid "The maximum width of the logo in pixels."
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"This is the custom theme created for Caetano Flotas under the Genesis "
+"Framework."
+msgstr ""
+
+#: lib/cars-cpt.php:18
+msgid "Update Car"
+msgstr ""
+
+#: lib/cars-cpt.php:29
+msgid "Uploaded to this Car"
+msgstr ""
+
+#: lib/cars-cpt.php:27
+msgid "Use as featured image"
+msgstr ""
+
+#: lib/cars-cpt.php:19 lib/cars-cpt.php:20
+msgid "View Car"
+msgstr ""
+
+#: config/onboarding.php:32
+msgid "WPForms Lite (Third Party)"
+msgstr ""
